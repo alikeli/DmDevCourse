@@ -20,13 +20,10 @@ public class SwitchExample {
 
         int value1 = 2;
         switch (value1) {
-            case 11:
-            case 22:
-            case 33:
+            case 11, 22, 33 -> {
                 System.out.println("show numbers");
-                break;
-            default:
-                System.out.println("number not found");
+            }
+            default -> System.out.println("number not found");
         }
     }
 }
