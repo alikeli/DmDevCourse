@@ -2,6 +2,8 @@ package org.example.switchExample;
 
 public class SwitchExample {
     public static void main(String[] args) {
+
+
         int value = 2;
         switch (value) {
             case 1:
